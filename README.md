@@ -2,7 +2,7 @@
 # Ranked 1st on the huggingface [Open Llm Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)   
 This is a merged model. So you have to unckeck the "[X] Contains merge/moerge" checkbox above the list.   
 
-## 2024 4th May - avg. 81.28   
+## May 4th 2024 - avg. 81.28   
 |             Metric              |Value|
 |---------------------------------|----:|
 |Avg.                             |81.28|
