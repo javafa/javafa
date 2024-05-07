@@ -14,7 +14,7 @@ This is a merged model. So you should unckeck "[X] Contains merge/moerge" checkb
 |GSM8k (5-shot)                   |75.89|
 
 ## Method
-- We were inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
+- I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
 
 ## Process
 This is a little bit tricky.
