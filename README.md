@@ -1,5 +1,5 @@
 
-### May 4th 2024 ranked 1st on the huggingface [Open Llm Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)   
+### May 4th 2024 - ranked 1st on the huggingface [Open Llm Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)   
 This is a merged model. So you have to unckeck the "[X] Contains merge/moerge" checkbox above the list.   
 |             Metric              |Value|
 |---------------------------------|----:|
