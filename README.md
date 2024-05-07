@@ -13,9 +13,6 @@ This is a merged model. So you have to unckeck the "[X] Contains merge/moerge" c
 ## Base Architecture 
 - QWEN2
 
-## Base Models
-- several QWEN2 based models
-
 <!--
 **javafa/javafa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
