@@ -14,6 +14,9 @@
 ### Base Architecture 
 - QWEN2
 
+### Next step
+- we are creating a new model by depth up-scaling.
+   
 <!--
 **javafa/javafa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
