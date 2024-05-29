@@ -1,12 +1,12 @@
 
 ### May 4th 2024 - ranked 1st on the huggingface [Open Llm Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
-This is a merged model. So you have to unckeck the "[X] Contains merge/moerge" checkbox above the list.   
+- This is a merged model. So you have to unckeck the "[X] Contains merge/moerge" checkbox above the list.   
 |             Metric              |Value|
 |---------------------------------|----:|
 |Avg.                             |81.28|
 
 ### free-evo-qwen72b-v0.8
-model [repository](https://huggingface.co/freewheelin/free-evo-qwen72b-v0.8-re)   
+- model [repository](https://huggingface.co/freewheelin/free-evo-qwen72b-v0.8-re)   
 
 ### Method
 - I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
