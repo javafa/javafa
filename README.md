@@ -15,7 +15,7 @@
 - QWEN2
 
 ### Next step
-- creating a new model by depth up-scaling comming soon.
+- new model with depth up-scaling
    
 <!--
 **javafa/javafa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
