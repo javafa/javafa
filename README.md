@@ -13,7 +13,7 @@
 - I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
 
 ### Process
-You need two models with the same architecture.   
+Required two models with the same architecture.   
 
 1. Choose one model and fine-tune it to create a gap between the original model and the fine-tuned one. It doesn't matter whether the evaluation score is higher or lower.   
 2. Merge the two models.   
@@ -21,7 +21,7 @@ You need two models with the same architecture.
 4. Fine-tune a specific evaluation part of the model if you need to increase the score for that part. (It's unlikely to work as you think, but you can try it.)   
 5. Merge the models again.   
 6. Evaluate again.   
-7. Keep going until the average evaluation score is higher than the original one.   
+7. Continue until the average evaluation score is higher than the original one.   
 
 ### Base Architecture 
 - QWEN2
