@@ -13,7 +13,21 @@
 - I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
 
 ### Framework
-[ Model Selector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ]   
+[ Model Selector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ] > 
+
+```flow
+st=>start: Start
+op=>operation: Model Selector
+op=>operation: Finetunner
+op=>operation: Merger
+op=>operation: Evaluator
+cond=>condition: Higher or Lower?
+e=>end
+
+st->op->cond
+cond(yes)->e
+cond(no)->st
+```
 
 ### Process
 Required two models with the same architecture.   
