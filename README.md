@@ -16,11 +16,15 @@
 [ ModelSelector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ]   
 
 ```mermaid
-graph TD;
-    ModelSelector-->Fintunner;
-    Fintunner-->Merger;
-    Merger-->Evaluator;
-    Evaluator-->ModelSelector;
+sequenceDiagram
+    participant ModelSelector
+    participant Finetunner
+    participant Merger
+    participant Evaluator
+    ModelSelector->>Finetunner: Select the Highest One?
+    loop ScoreChecker
+        Evaluator->>ModelSelector: If the score is lower
+    end
 ```
 
 ### Process
