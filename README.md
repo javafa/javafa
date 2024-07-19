@@ -13,7 +13,7 @@
 - I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
 
 ### Framework
-[ ModelSelector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ] > 
+[ ModelSelector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ]   
 
 ```mermaid
 graph TD;
