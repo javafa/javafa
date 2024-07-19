@@ -12,6 +12,9 @@
 ### Method
 - I was inspired by this [Sakana project](https://sakana.ai/evolutionary-model-merge/)
 
+### Framework
+[ Model Selector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ]   
+
 ### Process
 Required two models with the same architecture.   
 
@@ -22,9 +25,6 @@ Required two models with the same architecture.
 4. SLERP Merged one and Original One > Second Merged   
 5. Evaluate Second Merged   
 @ Continue until the average evaluation score is higher than the original one   
-
-### Framework
-[ Model Selector ] > [ Finetunner ] > [ Merger ] > [ Evaluator ]   
 
 ### Base Architecture 
 - QWEN2
