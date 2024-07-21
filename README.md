@@ -25,7 +25,7 @@ sequenceDiagram
     loop ScoreChecker
         ModelSelector->>Merger: Highest two
         Merger->>Evaluator: Merged one
-        Evaluator->>Merger: If the score is lower
+        Evaluator->>ModelSelector: If the score is not enough
     end
 ```
 
