@@ -21,8 +21,7 @@ sequenceDiagram
     participant ModelSelector
     participant Merger
     participant Evaluator
-    ModelSelector->>Finetunner: Select the Random One
-    Finetunner->>Merger: Select the Highest Two
+    Finetunner->>ModelSelector: Tunned models
     loop ScoreChecker
         ModelSelector->>Merger: Highest two
         Merger->>Evaluator: Merged one
