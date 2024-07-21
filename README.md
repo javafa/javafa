@@ -17,15 +17,16 @@
 
 ```mermaid
 sequenceDiagram
-    participant ModelSelector
     participant Finetunner
+    participant ModelSelector
     participant Merger
     participant Evaluator
+    ModelSelector->>Finetunner: Select the Random One
+    Finetunner->>Merger: Select the Highest Two
     loop ScoreChecker
-        ModelSelector->>Finetunner: Select the Random One
-        Finetunner->>Merger: Select the Highest Two
+        ModelSelector->>Merger: Highest two
         Merger->>Evaluator: Merged one
-        Evaluator->>ModelSelector: If the score is lower
+        Evaluator->>Merger: If the score is lower
     end
 ```
 
