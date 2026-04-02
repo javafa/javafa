@@ -1,5 +1,5 @@
 ### Turboquant Implementation
-- Google Research의 TurboQuant (arXiv:2504.19874) 논문을 PyTorch로 구현한 프로젝트입니다.
+- This is a project that implements the Google Research paper TurboQuant (arXiv:2504.19874) in PyTorch.
 - [Source repository here] (https://github.com/javafa/turboquant)
 
 **Baseline(FP16) 대비 비교:**
