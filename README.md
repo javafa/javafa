@@ -1,3 +1,6 @@
+### [책] 하네스엔지니어링으로 완성하는 에이전틱 AI
+2026-10-25 한빛출판사   
+
 ### Turboquant Implementation
 - This is a project that implements the Google Research paper TurboQuant (arXiv:2504.19874) in PyTorch.
 - [Source repository here] (https://github.com/javafa/turboquant)
